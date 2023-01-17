@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    aling-items:center;
+    justify-content: space-evenly;
+    background-color: darkblue;
+}
+
+#principal{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 150px ; 
+    border-radius:50%;
+}

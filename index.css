@@ -21,12 +21,13 @@ header{
 nav{
     background-color: aquamarine;
     display: flex;
-}
+    }
 
 ul{
     display:flex;
     align-items: center;
     justify-content: space-evenly;
+    height: 30PX;
 }
 
 li{
@@ -36,4 +37,18 @@ li{
     display:flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+li one{
+    text-align: none;
+    color: white;
+}
+
+li hover{
+    background-color: blue;
+    border-bottom: 3px solid darkred;
+}
+
+section #home{
+
 }

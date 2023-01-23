@@ -6,18 +6,17 @@
 
 header{
     display: flex;
-    background-color: darkblue;
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url("Imagens/Placa_Mae.jpg");
+    background-image: url("./imagens/Placa_Mae.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 header h1{
-    color: white;    
+    color: lightgoldenrodyellow;    
     font-size: 75px;
     font-family: sans-serif;
 }
@@ -37,6 +36,7 @@ nav{
 
 ul{
     display: flex;
+    width:100%;
     align-items: center;
     justify-content: space-evenly;
     height: 30px;
@@ -93,7 +93,7 @@ section#cursos{
     display: flex;
     align-items: center;
     justify-items: center;
-    background-image: url('imagens/bg.webp');
+    background-image: url("./imagens/bg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

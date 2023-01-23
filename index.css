@@ -23,10 +23,9 @@ header h1{
 }
     
 #principal{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 130px ; 
-    border-radius:60%;
+    margin: 20px;
+    width: 120px ; 
+    border-radius:65%;
     justify-content: space-evenly;
 }
 
@@ -127,12 +126,6 @@ section#contato{
 
 section#texto h1{
     color: white;
-}
-
-#principal{
-    width: 280px;
-    margin: 20px;
-    border-radius: 15%;
 }
 
 .branco{

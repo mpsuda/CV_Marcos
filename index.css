@@ -1,33 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 header{
     display: flex;
     background-color: darkblue;
-    font-size: 75px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
+    background-image: url("Imagens/Placa_Mae.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1{
+    color: white;    
+    font-size: 75px;
+    font-family: sans-serif;
 }
     
-    #principal{
+#principal{
     margin-top: 10px;
     margin-bottom: 10px;
     width: 130px ; 
     border-radius:60%;
     justify-content: space-evenly;
-    
 }
 
 nav{
-    background-color: aquamarine;
+    background-color: darkblue;
     display: flex;
-    }
+    color: white;
+}
 
 ul{
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 30PX;
+    height: 30px;
 }
 
 li{
@@ -39,16 +52,105 @@ li{
     justify-content: space-evenly;
 }
 
-li one{
-    text-align: none;
+li a{
+    text-decoration: none;
     color: white;
 }
 
 li hover{
-    background-color: blue;
+    background-color: darkcyan;
     border-bottom: 3px solid darkred;
 }
 
-section #home{
+main{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.sessao{
+    height:400px;
+    width:100%;
+    background-color: darkcyan;
+}
+
+section#home{
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+section#experiencias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+section#cursos{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-image: url('imagens/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+section#graduacao{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-image: url('imagens/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+section#contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkkhaki;
+    color: white;
+}
+
+#texto{
+    margin: 0;
+    padding: 0;
+}
+
+section#texto h1{
+    color: white;
+}
+
+#principal{
+    width: 280px;
+    margin: 20px;
+    border-radius: 15%;
+}
+
+.branco{
+    color: white;
+}
+
+footer{
+    background-color: darkblue;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+footer p{
+    color: white;
+    text-align: center;
 }

@@ -9,7 +9,7 @@ header{
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url("./Imagens/Placa_Mae.jpg");
+    background-image: url("Imagens/Placa_Mae.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,9 +56,9 @@ li a{
     color: white;
 }
 
-li hover{
-    background-color: darkcyan;
-    border-bottom: 3px solid darkred;
+li:hover{
+    background-color: darkred;
+    border-bottom: 3px solid black;
 }
 
 main{
@@ -85,7 +85,7 @@ section#experiencias{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: darkgreen;
     color: white;
 }
 
